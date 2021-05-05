@@ -1,0 +1,12 @@
+<div class="container">
+
+	{% for item in items %}
+	<h2> {{ item.formtitle }} </h2>
+
+	{% if item.inputlistvar %}
+	{% include "@molecules/input-with-button/input-with-button.twig" with item.inputlistvar %}
+	{% endif %}
+
+	{% endfor %}
+
+</div>

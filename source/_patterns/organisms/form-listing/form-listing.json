@@ -1,0 +1,34 @@
+{
+    "items": [
+        {
+            "formtitle": "testing-form-one",
+            "inputlistvar": {
+                "btnvar": {
+                    "tag": "button",
+                    "ButtonText": "Button",
+                    "Btn_Modifier": "danger",
+                    "Btn_size": "lg"
+                },
+                "inputvar": {
+                    "inputtype": "text",
+                    "placeholdername": "Name"
+                }
+            }
+        },
+        {
+            "formtitle": "testing-form-two",
+            "inputlistvar": {
+                "btnvar": {
+                    "tag": "button",
+                    "ButtonText": "Button",
+                    "Btn_Modifier": "danger",
+                    "Btn_size": "lg"
+                },
+                "inputvar": {
+                    "inputtype": "text",
+                    "placeholdername": "Name"
+                }
+            }
+        }
+    ]
+}

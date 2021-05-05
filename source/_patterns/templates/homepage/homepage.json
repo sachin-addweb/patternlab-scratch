@@ -1,0 +1,28 @@
+{
+    "homePage": {
+        "headerContent": "I am Header Part",
+        "footerContent": "I am Footer Part",
+        "items": [
+            {
+                "inputlistvar": {
+                    "labelcontent": "Email Address",
+                    "inputtype": "text",
+                    "placeholdername": "Enter your Email"
+                }
+            },
+            {
+                "inputlistvar": {
+                    "labelcontent": "Password",
+                    "inputtype": "password",
+                    "placeholdername": "Enter your Password"
+                }
+            }
+        ],
+        "submitButton": {
+            "tag": "button",
+            "ButtonText": "Button",
+            "Btn_Modifier": "danger",
+            "Btn_size": "lg"
+        }
+    }
+}

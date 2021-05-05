@@ -1,0 +1,21 @@
+patternlab from scratch
+
+https://patternlab.io/
+
+npm create pattern-lab
+- enter - Twig (PHP) - Blank project (no patterns) - Enter Yes
+
+-- need to create _patterns in source folder -
+reson - beacuse we used blank project
+
+-- add atom, molecules, organism, template, pages
+
+-- need to create _data folder
+reson - for json related data. 
+
+-- need to create image folder
+
+-- need to add patternlab logo
+
+- npm start -
+

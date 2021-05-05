@@ -1,0 +1,12 @@
+{
+    "btnvar": {
+        "tag": "button",
+        "ButtonText": "Button",
+        "Btn_Modifier": "danger",
+        "Btn_size": "lg"
+    },
+    "inputvar": {
+        "inputtype": "text",
+        "placeholdername": "Name"
+    }
+}

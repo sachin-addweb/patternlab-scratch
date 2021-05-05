@@ -1,0 +1,12 @@
+<div class="input-with-button">
+
+
+	{% if inputvar %}
+	{% include "@atoms/input/input.twig" with inputvar %}
+	{% endif %}
+
+	{% if btnvar %}
+	{% include "@atoms/button/button.twig" with btnvar %}
+	{% endif %}
+
+</div>

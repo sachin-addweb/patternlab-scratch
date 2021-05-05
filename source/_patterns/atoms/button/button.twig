@@ -1,0 +1,16 @@
+{# button component #}
+
+<{{ tag }} class="btn btn-{{ Btn_Modifier }}
+
+  {% if Btn_size %} 
+    btn-{{ Btn_size }} 
+  {% endif %} 
+
+  {% if linkhref %} 
+    href="{{ linkhref }}"
+  {% endif %} 
+
+  ">
+{{ ButtonText }}
+
+</{{ tag }}>
