@@ -1,0 +1,6 @@
+<div class="navbar-nav">
+
+	{% for menuLink in menuLinks %}
+	{% include "@atoms/link/link.twig" with menuLink %}
+	{% endfor %}
+</div>

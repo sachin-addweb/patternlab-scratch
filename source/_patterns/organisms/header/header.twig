@@ -1,3 +1,17 @@
 <header>
-	{{ headerContent }}
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		<div class="container">
+			{% if logovar %}
+			{% include "@atoms/logo/logo.twig" with logovar %}
+			{% endif %}
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+				aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				{% if navvar %}
+				{% include "@molecules/nav-link/nav-link.twig" with navvar %}
+				{% endif %}
+			</div>
+		</div>
 </header>

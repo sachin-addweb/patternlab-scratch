@@ -1,3 +1,30 @@
 {
-  
+    "siteFooter": {
+        "footerContent": "&copy; 2021 Company Name. All rights reserved."
+    },
+    "siteHeader": {
+        "logovar": {
+            "LogoText": "Navbar"
+        },
+        "navvar": {
+            "menuLinks": [
+                {
+                    "linkUrl": "#",
+                    "linkClass": "nav-link",
+                    "linkModifire": "active",
+                    "linkText": "Home"
+                },
+                {
+                    "linkUrl": "#",
+                    "linkClass": "nav-link",
+                    "linkText": "About us"
+                },
+                {
+                    "linkUrl": "#",
+                    "linkClass": "nav-link",
+                    "linkText": "Contact Us"
+                }
+            ]
+        }
+    }
 }

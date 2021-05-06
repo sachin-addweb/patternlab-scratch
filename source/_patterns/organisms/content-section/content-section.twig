@@ -1,0 +1,18 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+
+			{% if secimgvar %}
+			{% include "@atoms/image/image.twig" with secimgvar %}
+			{% endif %}
+
+		</div>
+		<div class="col-md-8">
+
+			{% if sectextvar %}
+			{% include "@atoms/text/text.twig" with sectextvar %}
+			{% endif %}
+
+		</div>
+	</div>
+</div>
