@@ -1,6 +1,6 @@
+
 // Bootstrap 5
 //@import "bs5/../../node_modules/bootstrap/scss/bootstrap.scss";
-
 
 @import "bs5/functions";
 @import "bs5/variables";
@@ -45,3 +45,6 @@
 // Utilities
 @import "bs5/utilities/api";
 // scss-docs-end import-stack
+
+//import project files
+@import "../_patterns/main.scss";

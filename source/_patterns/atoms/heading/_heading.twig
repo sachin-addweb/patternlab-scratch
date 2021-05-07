@@ -1,0 +1,5 @@
+{% set headingClass = headingClass|default('h' ~ heading_level) %}
+
+<h{{heading_level}} class="{{ headingClass }}{% if headingModifire %} {{ headingModifire }} {% endif %}">
+    {{ headingText }}
+</h{{heading_level}}>

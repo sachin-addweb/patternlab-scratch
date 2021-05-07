@@ -1,0 +1,11 @@
+{% if iconContent %}
+	<div class="icon-text-wrap">
+	{% endif %}
+
+	<i class="{{ iconClass }} {% if iconModifire %}{{ iconModifire }} {% endif %}"></i>
+	{% if iconContent %}
+		<div class="icon-content">{{ iconContent }}</div>
+	{% endif %}
+	{% if iconContent %}
+	</div>
+{% endif %}
