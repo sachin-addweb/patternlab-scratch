@@ -1,9 +1,5 @@
 <div class="page" id="page">
 	{% include "@organisms/header/header.twig" with siteHeader %}
-	<div role="main">
-
-		{% block content %}{% endblock %}
-
-	</div>
+	{% block content %}{% endblock %}
 	{% include "@organisms/footer/footer.twig" with siteFooter %}
 </div>

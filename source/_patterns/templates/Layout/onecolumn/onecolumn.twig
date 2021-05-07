@@ -1,10 +1,12 @@
 {% extends "@templates/Layout/site/site.twig" %}
 {% block content %}
-<div class="l-one-col">
-    <div class="l-main">
-        {% block main %}
-        <p>Content Placeholder</p>
-        {% endblock %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 pt-5 pb-5">
+            {% block main %}
+            <p>Content Placeholder</p>
+            {% endblock %}
+        </div>
     </div>
 </div>
 {% endblock %}
